@@ -1,4 +1,4 @@
-.PHONY: all clean
+.PHONY: all clean prog
 all: up_counter.v up_counter.vcd prog
 
 up_counter.v: up_counter.py convert.py
