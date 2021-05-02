@@ -12,4 +12,5 @@ prog: icebreaker_blinky.py
 
 clean:
 	rm -rf build
-	rm *.v
+	rm -f *.v
+	rm -f *.vcd
